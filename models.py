@@ -4,9 +4,9 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 from flask_migrate import Migrate
 
-database_name = "d6alp88kuh26c"
-user_name = "yvfsrkalwvyhvi"
-password = "4062a6c035176a481c4b81bcd53658fb53ca27671149edd1ec3bcd16322ced46"
+database_name = d6alp88kuh26c
+user_name = yvfsrkalwvyhvi
+password = 4062a6c035176a481c4b81bcd53658fb53ca27671149edd1ec3bcd16322ced46
 database_path = "postgres://{}:{}@{}/{}".format(
   user_name,
   password,
