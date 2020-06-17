@@ -4,14 +4,15 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 from flask_migrate import Migrate
 
-database_name = "capstone"
-user_name = "yvfsrkalwvyhvi"
-password = "4062a6c035176a481c4b81bcd53658fb53ca27671149edd1ec3bcd16322ced46"
-database_path = "postgres://{}:{}@{}/{}".format(
-  user_name,
-  password,
-  'postgres://yvfsrkalwvyhvi:4062a6c035176a481c4b81bcd53658fb53ca27671149edd1ec3bcd16322ced46@ec2-54-175-117-212.compute-1.amazonaws.com:5432/d6alp88kuh26c',
-  database_name)
+#database_name = "capstone"
+#user_name = "postgres"
+#password = "postgres"
+#database_path = "postgres://{}:{}@{}/{}".format(
+#  user_name,
+#  password,
+#  'localhost:5432',
+#  database_name)
+database_path = 'postgres://yvfsrkalwvyhvi:4062a6c035176a481c4b81bcd53658fb53ca27671149edd1ec3bcd16322ced46@ec2-54-175-117-212.compute-1.amazonaws.com:5432/d6alp88kuh26c'
 # database_path = os.environ['DATABASE_URL']
 db = SQLAlchemy()
 
