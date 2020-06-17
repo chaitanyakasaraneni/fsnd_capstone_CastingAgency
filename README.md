@@ -108,6 +108,11 @@ Please Note, to use any endpoint, you must send the request with user access tok
 - DELETE '/Actors/<id:int>'
 - DELETE '/Movies/<id:int>'
 
+Example Request
+```
+curl --location --request GET 'https://fsnd-capstone-castingagency.herokuapp.com/Movies' \
+--header 'Authorization: Bearer <TOKEN>'
+```
 Following is the sample response at each endpoint.
 
 - GET '/Actors'
