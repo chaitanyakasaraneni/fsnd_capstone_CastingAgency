@@ -10,7 +10,7 @@ password = "123"
 database_path = "postgres://{}:{}@{}/{}".format(
   user_name,
   password,
-  'localhost:5432',
+  'lpostgres://yvfsrkalwvyhvi:4062a6c035176a481c4b81bcd53658fb53ca27671149edd1ec3bcd16322ced46@ec2-54-175-117-212.compute-1.amazonaws.com:5432/d6alp88kuh26c',
   database_name)
 # database_path = os.environ['DATABASE_URL']
 db = SQLAlchemy()
