@@ -6,7 +6,7 @@ from flask_migrate import Migrate
 
 database_name = "capstone"
 user_name = "postgres"
-password = "123"
+password = "postgres"
 database_path = "postgres://{}:{}@{}/{}".format(
   user_name,
   password,
